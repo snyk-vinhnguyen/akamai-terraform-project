@@ -17,6 +17,8 @@ terraform {
   }
 }
 
-provider "akamai" {
-  dns_section = var.dnssection
+variable "edgerc_section" {
+  description = "The section to use in the .edgerc file"
+  type        = string
+  default     = "default"
 }

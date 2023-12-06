@@ -60,3 +60,4 @@ resource "akamai_dns_record" "www_placeholder_com_CNAME" {
     ttl = 7200
     target = ["www.placeholder.com.edgekey.net."]
     name = "www.placeholder.com"
+}

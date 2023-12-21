@@ -26,10 +26,10 @@ provider "akamai" {
 }
 */
 
-module "dns_guypocom" {
-  source               = "./workspace"
-  name                 = "akamai-dns-guypo"
-  working_directory    = "dns/guypocom"
+module "<MODULE_NAME>" {
+  source               = "<MODULE_SOURCE>"
+  name                 = "<MODULE_NAME>"
+  working_directory    = "<WORKING_DIRECTORY>"
   akamai_host          = var.AKAMAI_HOST
   akamai_access_token  = var.AKAMAI_ACCESS_TOKEN
   akamai_client_token  = var.AKAMAI_CLIENT_TOKEN
